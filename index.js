@@ -6,7 +6,7 @@
 
 module.exports = function(S) {
 
-  require('ts-node/register');
+  const BbPromise  = require('bluebird');
 
   /**
    * ServerlessOptimizer
@@ -20,6 +20,7 @@ module.exports = function(S) {
 
     constructor() {
       super();
+      require('ts-node/register');
     }
 
     /**
