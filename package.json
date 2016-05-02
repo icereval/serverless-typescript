@@ -1,0 +1,27 @@
+{
+  "name": "serverless-typescript",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=4.0"
+  },
+  "description": "Serverless TypeScript Plugin",
+  "author": "loqwai.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/icereval/serverless-typescript"
+  },
+  "keywords": [],
+  "main": "index.js",
+  "bin": {},
+  "scripts": {
+    "test": "mocha tests/all"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  },
+  "dependencies": {
+    "ts-node": "^0.7.2"
+  }
+}
